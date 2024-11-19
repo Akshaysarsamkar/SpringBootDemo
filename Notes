@@ -1,0 +1,84 @@
+============================ Spring Boot Introduction ===================
+   Spring is java based framework which is used to make development fast in the Spring boot no need to create configuration it with make automatically
+ the mainly used to create RestAPI and and develop stand-aloan application 
+ 
+ 
+ Spring   +   embedded    -   configuration  =  Boot
+ boot     +   servers     -   guration       =   
+   
+   
+ ============= diffrence between Spring And Spring Boot ===================
+ 
+         Spring                                         Spring Boot
+  
+  1] Used to build Application                    used to building Rest API`s
+  
+  2] develop loosely coupled                      used stand-alone Application 
+     application 
+     
+  3] primary feature is dependency                primary feature is auto configration
+     injection 
+     
+
+     
+================= How To Create Spring Application ====================================
+
+                           Help     (go to the manu click on the help )
+                            |
+                    Eclips marketplace     ( select Eclips MarketPlace )
+                            |
+                    Spring tools (Search)   ( Go to search bar )
+                            | 
+                    Selete Spring Tools     ( Typing the Spring Boot tools)
+                            |
+                         installs           ( install the application )  
+                         
+                         
+                         
+                         
+====================================  Application.properties  =======================================
+
+ 1] Used to Write Application releted property into the file 
+ 2] sometime used to application.yml file 
+ 3] properties used to change following properties
+      A] MAIL PROPERTIES
+      B] WEB PROPERTIES
+      C] DATA PROPERTIES
+      D] CORE PROPERTIES
+      E] JSON PROPERTIES
+      F] CACHE PROPERTIES
+      G] DEVTOOLS PROPERTIES
+      H] SECURITY PROPERTIES
+      
+      
+========================= RUN METHOD ========================
+       1] Run method is used to launch an Application 
+       2] it's takes two Arguments 
+            A] class
+            B] command Line Argument that we have passed to main 
+       3] it's include in 'org.springframework.boot.SpringApplication' package
+       4] syntax:
+             SpringApplication.run(class,arg)
+             
+             
+========================================= Create the SpringBoot Application using Spring initializar =====================================================
+                                         
+                                          Search Spring Initilizer on google 
+                                                        |
+                                          Select project & other info regarding project 
+                                                        |
+                                                 Add dependencies	
+                                                        |
+                                              click on generate Button
+                                                        |
+                                          then ZIP file is cretaed on system 
+                                                        |
+                                                 Extract Zip file    
+                                                        |
+                                                    Open Eclips 
+                                                        |
+                                                 go to file -> import 
+                                                        |
+                                            click on existing mevan project 
+                                                        |
+                                            open floder where project is exatracted 
